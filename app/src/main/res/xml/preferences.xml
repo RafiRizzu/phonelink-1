@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Connection">
+        <EditTextPreference
+            app:key="url"
+            app:title="Server URL"
+            app:dialogTitle="Server URL (wss://...)" />
+        <Preference
+            app:key="code_action"
+            app:title="Pairing code"
+            app:summary="Tap to generate a new code" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Streaming">
+        <ListPreference
+            app:key="quality"
+            app:title="Image quality"
+            app:entries="@array/quality_entries"
+            app:entryValues="@array/quality_values"
+            app:defaultValue="medium" />
+        <ListPreference
+            app:key="fps"
+            app:title="Max frame rate"
+            app:entries="@array/fps_entries"
+            app:entryValues="@array/fps_values"
+            app:defaultValue="10" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Feedback">
+        <SwitchPreferenceCompat
+            app:key="haptics"
+            app:title="Vibrate on remote input"
+            app:summary="Buzzes this phone when a tap, swipe or key comes from the controller"
+            app:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Data">
+        <Preference
+            app:key="reset_action"
+            app:title="Reset pairing code and URL"
+            app:summary="Clears saved settings and closes the app" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="About">
+        <Preference
+            app:key="about_version"
+            app:title="Version"
+            app:selectable="false" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

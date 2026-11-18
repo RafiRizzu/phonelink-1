@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.PhoneLink" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#00D4FF</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#7B2FF7</item>
+        <item name="android:windowBackground">#0F0C29</item>
+        <item name="android:navigationBarColor">#0F0C29</item>
+        <item name="android:statusBarColor">#0F0C29</item>
+    </style>
+</resources>

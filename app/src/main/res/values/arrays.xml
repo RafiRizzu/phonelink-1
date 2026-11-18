@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="quality_entries">
+        <item>Low (smaller, faster)</item>
+        <item>Medium</item>
+        <item>High (sharper, slower)</item>
+    </string-array>
+    <string-array name="quality_values">
+        <item>low</item>
+        <item>medium</item>
+        <item>high</item>
+    </string-array>
+    <string-array name="fps_entries">
+        <item>5 fps (slow networks)</item>
+        <item>10 fps</item>
+        <item>15 fps (fast networks)</item>
+    </string-array>
+    <string-array name="fps_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+</resources>
